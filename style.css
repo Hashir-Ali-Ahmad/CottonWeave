@@ -12,16 +12,13 @@ html, body{
 .main{
     height: 100%;
     width: 100%;
-    background: rebeccapurple;
     display: flex;
-    /* justify-content: space-between; */
     padding: 150px 120px 0px 120px;
     gap: 70px;
 }
 .left{
     height: 100%;
     width: 45%;
-    background: red;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -33,7 +30,6 @@ html, body{
     line-height: 1;
 }
 .left .left-bottom{
-    background-color: aqua;
     height: 40%;
 }
 .left-bottom .color{
@@ -69,11 +65,9 @@ html, body{
 .right{
     height: 100%;
     width: 35%;
-    background: rgb(112, 79, 79);
     position: relative;
 }
 .right-top{
-    background: gray;
     height: 13%;
     display: flex;
     justify-content: space-between;
@@ -86,5 +80,27 @@ html, body{
 }
 .right img{
     height: 85%;
+    width: 85%;
     
+}
+.right .circular{
+    height: 150px;
+    width: 150px;
+    color: whitesmoke;
+    background: black;
+    position: absolute;
+    top: 20%;
+    right: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%
+}
+.right .rotated{
+    font-weight: 600;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    position: absolute;
+    left: -10%;
+    bottom: 4%;
 }
