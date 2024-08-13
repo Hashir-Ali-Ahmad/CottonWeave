@@ -81,6 +81,7 @@ html, body{
 .right img{
     height: 85%;
     width: 85%;
+    object-fit: cover;
     
 }
 .right .circular{
@@ -103,4 +104,71 @@ html, body{
     position: absolute;
     left: -10%;
     bottom: 4%;
+}
+
+@media (max-width:1100px){
+    .main{
+        padding: 70px 40px 0px 40px;
+    }
+    .left{
+        width: 55%;
+    }
+    .left h1{
+        font-size: 100px;
+    }
+    .left .left-bottom{
+        height: 40%;
+    }
+    .left-bottom .color{
+        padding: 6px;
+    }
+    .left-bottom p{
+        width: 80%;
+    }
+    .right-top{
+        padding-right: 60px;
+    }
+    .right .circular{
+        height: 120px;
+        width: 120px;
+        right: -3%;
+    }
+}
+@media (max-width:800px){
+    .main{
+        padding: 50px 40px 0px 40px;
+    }
+    .left{
+        width: 50%;
+    }
+    .left h1{
+        margin-top: 50px;
+        font-size: 80px;
+
+    }
+    .left .left-bottom{
+        height: 50%;
+    }
+    .left-bottom p{
+        width: 90%;
+    }
+    .right-top{
+        padding-right: 0px;
+    }
+    .right img{
+        height: 80%;
+        width: 100%;
+    }
+    .right .circular{
+        height: 100px;
+        width: 100px;
+        font-size: 13px;
+        top: 60%;
+        right: -20%;
+    }
+    .right .rotated{
+        left: -18%;
+        bottom: 4%;
+    }
+    
 }
